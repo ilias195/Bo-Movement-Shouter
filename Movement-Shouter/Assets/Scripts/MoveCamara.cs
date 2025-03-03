@@ -4,20 +4,14 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Transform player;
+
     void Start()
     {
-            public Transform player;
 
+    }
     void Update()
     {
         transform.position = player.transform.position;
-
-    }
-}
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
