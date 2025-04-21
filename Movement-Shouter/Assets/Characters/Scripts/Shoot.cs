@@ -7,6 +7,7 @@ public class Shoot : MonoBehaviour
     public GameObject prefab;
     public KeyCode shootKey = KeyCode.LeftControl;
     public float delay;
+    
 
 
     void Start()
